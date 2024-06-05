@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+body {
+  position: relative;
+}
+body header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 5;
+}
+body header nav {
+  padding: 1rem 0;
+}
+body header nav ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+body header nav ul li {
+  padding-left: 2rem;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.1s;
+}
+body header nav ul li a:hover {
+  color: #dcb898;
+}
+body main section.main-area {
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+body main section.main-area div.info {
+  flex-basis: 450px;
+}
+body main section.main-area div.info h1 {
+  font-size: 3.5rem;
+}
+body main section.main-area div.info h2 {
+  font-size: 1rem;
+}
+body main section.main-area div.info a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #dcb898;
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  transition: all 0.2s;
+}
+body main section.main-area div.info a:hover {
+  transform: scale(1.2);
+}
+body main section.main-area div.img {
+  flex-basis: 450px;
+}
+body main section.main-area div.img img {
+  width: 100%;
+}
+body main section.about {
+  background-color: #faede1;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
+body main section.about div.description {
+  width: 50vw;
+  text-align: center;
+}
+body main section.about div.description .progress {
+  margin-bottom: 1rem;
+}
+body main section.resume {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+body main section.resume div.table {
+  flex: 2 1 700px;
+  padding: 1rem;
+}
+body main section.resume div.table td {
+  padding: 2rem;
+}
+body main section.resume div.img {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 500px;
+}
+body main section.resume div.img img {
+  width: 80%;
+  border-radius: 20px;
+}
+body main section.gallery-area {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main section.gallery-area div.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body main section.gallery-area div.pictures div.picture {
+  flex-basis: 200px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 2rem;
+}
+body main section.gallery-area div.pictures div.picture img {
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+body main section.gallery-area div.pictures div.picture img:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 10px 10px -6px #777;
+}/*# sourceMappingURL=style.css.map */
